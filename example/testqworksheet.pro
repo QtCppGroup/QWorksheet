@@ -8,6 +8,7 @@
 
 QT       += core gui
 QT += sql
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = testqworksheet
@@ -15,7 +16,7 @@ TEMPLATE = app
         LIBS += ./qworksheet.lib  # Windows msvc
         # LIBS += ./libqworksheet.a # Mingw or GCC 
         LIBS += -lsetupapi -ladvapi32 -luser32
-INCLUDEPATH += C:\Users\Mohsen\Desktop\QWorksheet-master
+INCLUDEPATH += ./QWorksheet-master
 SOURCES += main.cpp\
         mainwindow.cpp
 
