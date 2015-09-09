@@ -15,7 +15,7 @@ TEMPLATE = app
         LIBS += ./qworksheet.lib  # Windows msvc
         # LIBS += ./libqworksheet.a # Mingw or GCC 
         LIBS += -lsetupapi -ladvapi32 -luser32
-INCLUDEPATH += C:\Users\Mohsen\Desktop\QWorksheet-master
+INCLUDEPATH += ./QWorksheet-master # Qworksheet headers 
 SOURCES += main.cpp\
         mainwindow.cpp
 
