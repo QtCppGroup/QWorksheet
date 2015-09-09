@@ -26,7 +26,8 @@ HEADERS +=\
     exportexcelobject.h \
     storage.h \
     sheetvar.h \
-    general.h
+    general.h \
+    version.h
 
 unix:!symbian {
     maemo5 {
@@ -39,3 +40,6 @@ unix:!symbian {
 
 RESOURCES += \
     media.qrc
+
+DISTFILES += \
+    README.md

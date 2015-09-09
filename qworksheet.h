@@ -46,7 +46,6 @@
 #include "storage.h"
 #include "sheetvar.h"
 
-#define VERSIONWORKSHEET "0.70"
 
 #if defined(QWORKSHEET_LIBRARY)
 #  define QWORKSHEETSHARED_EXPORT Q_DECL_EXPORT

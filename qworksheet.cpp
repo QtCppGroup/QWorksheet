@@ -1,5 +1,6 @@
 #include "qworksheet.h"
 #include "sheetvar.h"
+#include "version.h"
 
 bool g_isdata=false;
 QWorkSheet::QWorkSheet(QWidget *parent): QDockWidget(parent)
@@ -245,6 +246,7 @@ void QWorkSheet::slotAddRows(QString sheet_name, QString column_name, QStringLis
 
 void QWorkSheet::slotLoadTableWidgetFromTextStream(QString header, QStringList sheets)
 {
+    Q_UNUSED(header)
     QString error_str;
     if(sheets.isEmpty()) {
         error_str += tr("sheets is empty!\n") ;

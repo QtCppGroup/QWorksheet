@@ -74,13 +74,13 @@ void MainWindow::on_pushButton_addRows_clicked()
     QApplication::processEvents();
     QList<QString> str;
     str << "1r " <<"2r" << "7r" << "4r"  <<"5r" << "6r";
-    emit  sigAddRows("n3","c1",str);
-    emit  sigAddRows("n3","c2",str);
+    emit  sigAddRows("n1","c1",str);
+    emit  sigAddRows("n1","c2",str);
     QList<QString> str2;
     str2<< "test";
-    emit  sigAddRows("n3","c4",str2);
-    emit  sigAddRows("n3","c5",str2);
-    emit  sigAddRows("n3","c3",str2);
-    emit  sigAddRows("n2","c6",str);
+    emit  sigAddRows("n1","c4",str2);
+    emit  sigAddRows("n1","c5",str2);
+    emit  sigAddRows("n1","c3",str2);
+    emit  sigAddRows("n1","c6",str);
 }
 

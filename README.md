@@ -7,7 +7,8 @@ It can be used widely in data acquisition (DAQ) software packages next to Charts
 Work on project is in progress ...
 
 -----------------------------------------------------------------
-Version 0.70
+Version 0.71 - Qt 5.5.0
+    bugfix: example project file
 
 -----------------------------------------------------------------
 
