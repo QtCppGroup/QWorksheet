@@ -12,7 +12,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = readtestlib
 TEMPLATE = app
-        LIBS += C:\Users\Mohsen\Desktop\build-qworksheet-Qt_5_5_0_msvc2012-Release\release\qworksheet.lib  # Windows msvc
+        LIBS += ./qworksheet.lib  # Windows msvc
         # LIBS += ./libqworksheet.a # Mingw or GCC 
         LIBS += -lsetupapi -ladvapi32 -luser32
 INCLUDEPATH += C:\Users\Mohsen\Desktop\QWorksheet-master
