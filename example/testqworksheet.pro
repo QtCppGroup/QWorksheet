@@ -10,7 +10,7 @@ QT       += core gui
 QT += sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = readtestlib
+TARGET = testqworksheet
 TEMPLATE = app
         LIBS += ./qworksheet.lib  # Windows msvc
         # LIBS += ./libqworksheet.a # Mingw or GCC 
