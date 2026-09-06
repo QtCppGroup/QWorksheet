@@ -12,7 +12,3 @@ Version 0.71 - Qt 5.5.0
     bugfix: example project file
 
 -----------------------------------------------------------------
-
-www.QtGroup.ir
-
-info [at] QtGroup [dot] ir
